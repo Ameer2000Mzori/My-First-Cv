@@ -1,0 +1,155 @@
+/****************** Whole tags *******************/
+body {
+    margin: 0;   
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-style: oblique;
+    color: rgb(55, 155, 236);
+}
+h2 {
+    font-style: oblique;
+    color: rgb(55, 155, 236);
+}
+h3 {
+    font-style: oblique;
+    color: rgb(55, 155, 236);
+
+}
+p {
+    margin-top: 0;
+    margin-bottom: 25;
+    padding: 0;
+    font-style: italic;
+    color: rgb(71, 116, 71);
+}
+hr{
+    border-width: 0.5ex 0ex 0ex;
+    width: 50%;
+    border-style: dotted;
+    border-color: bisque;
+
+}
+
+
+
+
+
+/****************** Class tags *******************/
+.top_contener {
+    background-color: rgb(152, 238, 238);
+    position: relative;
+    padding-top: 100px;
+
+}
+/*.middle-container {
+    
+
+}*/
+.bottom-container {
+    background-color: #29bbff;
+    padding: 50px;
+    margin-top: 10px;
+
+}
+.cloud_up{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.cloud_down{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.gamer_text {
+    text-decoration: underline;
+
+}
+.profile{
+    padding: 25px;
+}
+.btn{
+	box-shadow:inset -16px -6px 24px -7px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 24px;
+	text-decoration:none;
+	text-shadow:20px -1px 50px #263666;
+
+
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+
+}
+.profile_img{
+    width: 25%;
+}
+.goal_img{
+    width: 25%;
+    float: left;
+}
+.skill_img{
+    width: 25%;
+    float: right;
+}
+.copy_right {
+    font-size: small;
+    height: 10px;
+    bottom: 10px;
+    margin: 15px;
+
+}
+.other_buttons {
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 24px;
+	text-decoration:none;
+	text-shadow:20px -1px 50px #263666;
+
+}
+.other_buttons:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#336086;
+}
+.other_buttons:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/****************** ID tags *******************/
